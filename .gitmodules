@@ -1,0 +1,3 @@
+[submodule "submodules/mmd6"]
+	path = submodules/mmd6
+	url = https://github.com/fletcher/MultiMarkdown-6.git

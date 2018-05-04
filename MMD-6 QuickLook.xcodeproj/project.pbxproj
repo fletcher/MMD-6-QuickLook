@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AFBDC92209BDBD500FB85AC /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBDC91209BDBD500FB85AC /* GenerateThumbnailForURL.c */; };
+		5AFBDC94209BDBD500FB85AC /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBDC93209BDBD500FB85AC /* GeneratePreviewForURL.c */; };
+		5AFBDC96209BDBD500FB85AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBDC95209BDBD500FB85AC /* main.c */; };
+		5AFBDCAD209BDCAE00FB85AC /* libMultiMarkdown.framework/libMultiMarkdown in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFBDCA7209BDC9800FB85AC /* libMultiMarkdown.framework/libMultiMarkdown */; };
+		5AFBDCAF209BE3BE00FB85AC /* MMD-6 QuickLook.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AFBDC8E209BDBD500FB85AC /* MMD-6 QuickLook.qlgenerator */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AFBDCA6209BDC9800FB85AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFBDC9D209BDC9800FB85AC /* MultiMarkdown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B3882D57AF34415AA410D12D;
+			remoteInfo = libMultiMarkdown;
+		};
+		5AFBDCA8209BDC9800FB85AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFBDC9D209BDC9800FB85AC /* MultiMarkdown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02DBB38688874BFBB6BE030A;
+			remoteInfo = multimarkdown;
+		};
+		5AFBDCAA209BDCA900FB85AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFBDC9D209BDC9800FB85AC /* MultiMarkdown.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 611080C5473E46918ADF2B5B;
+			remoteInfo = libMultiMarkdown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AFBDCAE209BE38A00FB85AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/QuickLook";
+			dstSubfolderSpec = 0;
+			files = (
+				5AFBDCAF209BE3BE00FB85AC /* MMD-6 QuickLook.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5AFBDC8E209BDBD500FB85AC /* MMD-6 QuickLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MMD-6 QuickLook.qlgenerator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFBDC91209BDBD500FB85AC /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		5AFBDC93209BDBD500FB85AC /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		5AFBDC95209BDBD500FB85AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5AFBDC97209BDBD500FB85AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFBDC9D209BDC9800FB85AC /* MultiMarkdown.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MultiMarkdown.xcodeproj; path = "submodules/mmd6/build-xcode/MultiMarkdown.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AFBDC8A209BDBD500FB85AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFBDCAD209BDCAE00FB85AC /* libMultiMarkdown.framework/libMultiMarkdown in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AFBDC84209BDBD500FB85AC = {
+			isa = PBXGroup;
+			children = (
+				5AFBDC9D209BDC9800FB85AC /* MultiMarkdown.xcodeproj */,
+				5AFBDC90209BDBD500FB85AC /* MMD-6 QuickLook */,
+				5AFBDC8F209BDBD500FB85AC /* Products */,
+				5AFBDCAC209BDCAE00FB85AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5AFBDC8F209BDBD500FB85AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AFBDC8E209BDBD500FB85AC /* MMD-6 QuickLook.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AFBDC90209BDBD500FB85AC /* MMD-6 QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				5AFBDC91209BDBD500FB85AC /* GenerateThumbnailForURL.c */,
+				5AFBDC93209BDBD500FB85AC /* GeneratePreviewForURL.c */,
+				5AFBDC95209BDBD500FB85AC /* main.c */,
+				5AFBDC97209BDBD500FB85AC /* Info.plist */,
+			);
+			path = "MMD-6 QuickLook";
+			sourceTree = "<group>";
+		};
+		5AFBDC9E209BDC9800FB85AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AFBDCA7209BDC9800FB85AC /* libMultiMarkdown.framework/libMultiMarkdown */,
+				5AFBDCA9209BDC9800FB85AC /* multimarkdown */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AFBDCAC209BDCAE00FB85AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AFBDC8B209BDBD500FB85AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5AFBDC8D209BDBD500FB85AC /* MMD-6 QuickLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFBDC9A209BDBD500FB85AC /* Build configuration list for PBXNativeTarget "MMD-6 QuickLook" */;
+			buildPhases = (
+				5AFBDC89209BDBD500FB85AC /* Sources */,
+				5AFBDC8A209BDBD500FB85AC /* Frameworks */,
+				5AFBDC8B209BDBD500FB85AC /* Headers */,
+				5AFBDC8C209BDBD500FB85AC /* Resources */,
+				5AFBDCAE209BE38A00FB85AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFBDCAB209BDCA900FB85AC /* PBXTargetDependency */,
+			);
+			name = "MMD-6 QuickLook";
+			productName = "MMD-6 QuickLook";
+			productReference = 5AFBDC8E209BDBD500FB85AC /* MMD-6 QuickLook.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AFBDC85209BDBD500FB85AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "MultiMarkdown Software, LLC";
+				TargetAttributes = {
+					5AFBDC8D209BDBD500FB85AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5AFBDC88209BDBD500FB85AC /* Build configuration list for PBXProject "MMD-6 QuickLook" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AFBDC84209BDBD500FB85AC;
+			productRefGroup = 5AFBDC8F209BDBD500FB85AC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5AFBDC9E209BDC9800FB85AC /* Products */;
+					ProjectRef = 5AFBDC9D209BDC9800FB85AC /* MultiMarkdown.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5AFBDC8D209BDBD500FB85AC /* MMD-6 QuickLook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5AFBDCA7209BDC9800FB85AC /* libMultiMarkdown.framework/libMultiMarkdown */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = libMultiMarkdown.framework/libMultiMarkdown;
+			path = libMultiMarkdown.framework;
+			remoteRef = 5AFBDCA6209BDC9800FB85AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5AFBDCA9209BDC9800FB85AC /* multimarkdown */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = multimarkdown;
+			remoteRef = 5AFBDCA8209BDC9800FB85AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AFBDC8C209BDBD500FB85AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AFBDC89209BDBD500FB85AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFBDC92209BDBD500FB85AC /* GenerateThumbnailForURL.c in Sources */,
+				5AFBDC94209BDBD500FB85AC /* GeneratePreviewForURL.c in Sources */,
+				5AFBDC96209BDBD500FB85AC /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AFBDCAB209BDCA900FB85AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libMultiMarkdown;
+			targetProxy = 5AFBDCAA209BDCA900FB85AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AFBDC98209BDBD500FB85AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5AFBDC99209BDBD500FB85AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5AFBDC9B209BDBD500FB85AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X37R9F43BE;
+				INFOPLIST_FILE = "MMD-6 QuickLook/Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.multimarkdown.MMD-6-QuickLook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		5AFBDC9C209BDBD500FB85AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X37R9F43BE;
+				INFOPLIST_FILE = "MMD-6 QuickLook/Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.multimarkdown.MMD-6-QuickLook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AFBDC88209BDBD500FB85AC /* Build configuration list for PBXProject "MMD-6 QuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFBDC98209BDBD500FB85AC /* Debug */,
+				5AFBDC99209BDBD500FB85AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFBDC9A209BDBD500FB85AC /* Build configuration list for PBXNativeTarget "MMD-6 QuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFBDC9B209BDBD500FB85AC /* Debug */,
+				5AFBDC9C209BDBD500FB85AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AFBDC85209BDBD500FB85AC /* Project object */;
+}
