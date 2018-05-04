@@ -11,7 +11,7 @@ The QuickLook code is given to the public domain (e.g. `GeneratePreviewForURL.c`
 
 To compile:
 
-1. Clone this repository (e.g. `git clone `)
+1. Clone this repository (e.g. `git clone https://github.com/fletcher/MMD-6-QuickLook.git`)
 
 2. Clone MultiMarkdown submodule:
 
